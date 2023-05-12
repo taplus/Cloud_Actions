@@ -17,6 +17,11 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
+# checkout
+git branch -a
+git tag
+git checkout v22.03.5
+
 # add openclash package
 cd package
 git clone --depth=1 https://github.com/vernesong/OpenClash.git

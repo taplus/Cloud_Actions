@@ -20,7 +20,7 @@
 # checkout
 git branch -a
 git tag
-git checkout v22.03.5
+git checkout v23.05.2
 
 # add openclash package
 cd package
